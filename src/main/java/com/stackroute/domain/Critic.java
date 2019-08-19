@@ -12,21 +12,17 @@ import java.util.List;
 
 @NodeEntity
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @ToString
-public class User {
+@NoArgsConstructor
+@AllArgsConstructor
 
-@GraphId
-    private Long id;
+public class Critic {
+    @GraphId
+    private long id;
     private String name;
     private int age;
 
     @Relationship(type = "RATED", direction = Relationship.INCOMING)
     private List<Movie> movies;
-
-//    public List<Movie> getMovies() {
-//        return movies;
-//    }
 
 }

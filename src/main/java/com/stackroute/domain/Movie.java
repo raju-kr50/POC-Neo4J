@@ -12,10 +12,10 @@ import org.neo4j.ogm.annotation.NodeEntity;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+
 public class Movie {
     @GraphId
-    private Long id;
+    private long id;
     private String title;
     private String director;
-
 }
