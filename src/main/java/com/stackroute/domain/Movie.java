@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import org.neo4j.ogm.annotation.GraphId;
+import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
 
 @NodeEntity
@@ -14,7 +15,7 @@ import org.neo4j.ogm.annotation.NodeEntity;
 @ToString
 
 public class Movie {
-    @GraphId
+    @Id
     private long id;
     private String title;
     private String director;

@@ -1,0 +1,8 @@
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/repository/MovieRepository.java
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/repository/CriticRepository.java
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/controller/CriticController.java
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/domain/Critic.java
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/Neo4jApplication.java
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/service/RatingService.java
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/service/RatingServiceImpl.java
+/home/cgi/Documents/Stackroute/Product/poc-neo4j/src/main/java/com/stackroute/domain/Movie.java

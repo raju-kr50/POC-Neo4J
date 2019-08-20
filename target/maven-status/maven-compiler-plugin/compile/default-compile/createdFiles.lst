@@ -1,0 +1,8 @@
+com/stackroute/Neo4jApplication.class
+com/stackroute/repository/CriticRepository.class
+com/stackroute/controller/CriticController.class
+com/stackroute/service/RatingServiceImpl.class
+com/stackroute/service/RatingService.class
+com/stackroute/repository/MovieRepository.class
+com/stackroute/domain/Critic.class
+com/stackroute/domain/Movie.class

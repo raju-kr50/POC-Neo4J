@@ -26,6 +26,6 @@ public interface RatingService {
 
     Movie updateMovieById(Movie movie);
 
-    Critic setRelation(long criticId, long movieId, int rating);
+    Critic setRelation(long criticId,long movieId,int rating);
 }
 

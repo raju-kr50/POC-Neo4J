@@ -4,8 +4,8 @@ services:
     image: neo4j
     container_name: neo4j-springboot
 #    restart: always
-#    volumes:
-#      - $HOME/Documents/Stackroute/data/:/data
+    volumes:
+      - $HOME/data/:/data
     ports:
       - 7474:7474
       - 7687:7687
@@ -13,11 +13,11 @@ services:
   rating-service:
     build: .
     ports:
-      - 8080:8081
+      - 8080:8087
     depends_on:
       - neo4jdb
     links:
       - neo4jdb
 #    restart: always
     expose:
-      - 8081
+      - 8087

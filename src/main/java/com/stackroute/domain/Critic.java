@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.neo4j.ogm.annotation.GraphId;
+import org.neo4j.ogm.annotation.Id;
 import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Relationship;
 
@@ -17,7 +17,7 @@ import java.util.List;
 @AllArgsConstructor
 
 public class Critic {
-    @GraphId
+    @Id
     private long id;
     private String name;
     private int age;
